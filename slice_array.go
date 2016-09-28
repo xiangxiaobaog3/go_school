@@ -3,6 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	var s1 []int
-	fmt.Println(s1)
+	s1 := make([]int, 3, 10)
+	fmt.Println(len(s1), cap(s1))
 }
+
+
