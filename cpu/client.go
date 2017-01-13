@@ -21,5 +21,6 @@ func main() {
 	stat.MemTotal = mem_stat.MemTotal
 	total := stat.MemTotal
 	fmt.Printf(total)
+
 }
 
