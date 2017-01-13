@@ -20,6 +20,6 @@ func main() {
 	mem_stat, _ := common.GetMemStat()
 	stat.MemTotal = mem_stat.MemTotal
 	total := stat.MemTotal
-	fmt.Printf(string(total))
+	fmt.Printf(total)
 }
 
